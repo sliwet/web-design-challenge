@@ -1,3 +1,12 @@
+.navbar{
+    position: absolute;
+    right: 30px;
+}
+
+.navbar a{
+  background-color:white;
+}
+
 body {
   width: 100%;
   min-height:100%;
@@ -10,6 +19,25 @@ body {
   /* Font color */
   color:blue; 
 } 
+
+.homebtn{
+  background-color: white;
+  z-index:2;
+}
+
+.homebtn a{
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
 
 .divtop{
   background-color: white;
@@ -27,22 +55,27 @@ body {
   bottom:0;
   background-color: gray;
   z-index:0;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
 
-.menubuttons{
+/* .menubuttons{
   display: none;
-}
+} */
 
 @media (min-width: 600px) {
-  .menubuttons{
+  /* .menubuttons{
     display: block;
   }
 
   .menutoggle{
     display: none;
-  }
+  } */
 
-  .menulist{
+  /* .menulist{
     display: none;
-  }
+  } */
 }
