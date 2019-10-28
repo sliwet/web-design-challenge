@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
+}
+
+.col {
+  width: 100%;
+  border: black 1px solid;
+  /* Font color */
+  color:blue; 
+} 
+
+.divtop{
+  background-color: white;
+  z-index:2;
+}
+
+.divbdy{
+  background-color: white;
+  z-index:1;
+}
+
+.divbtm {
+  width:100%;
+  position:absolute;
+  bottom:0;
+  background-color: gray;
+  z-index:0;
+}
+
+.menubuttons{
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .menubuttons{
+    display: block;
+  }
+
+  .menutoggle{
+    display: none;
+  }
+
+  .menulist{
+    display: none;
+  }
+}
