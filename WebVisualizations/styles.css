@@ -14,11 +14,13 @@ h1, h2, h3{
 h1{
   font-size: 24px;
   font-weight: bold;
+  text-align:left;
 }
 
 h2{
   font-size: 22px;
   font-weight: bold;
+  text-align:left;
 }
 
 h3{
@@ -29,6 +31,7 @@ h3{
 
 p{
   color: gray;
+  text-align:left;
 }
 
 .navbar{
@@ -77,6 +80,12 @@ body {
 }
 
 .divbdy{
+  background-color: white;
+  z-index:1;
+}
+
+.divtable{
+  text-align:center;
   background-color: white;
   z-index:1;
 }
