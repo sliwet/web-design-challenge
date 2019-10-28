@@ -1,6 +1,4 @@
-# web-design-challenge
-
-Test the web-design [here](https://sliwet.github.io/web-design-challenge/)
+# Test the web-design [here](https://sliwet.github.io/web-design-challenge/)
 
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
