@@ -102,21 +102,3 @@ body {
   padding: 5px;
   margin: 0px;
 }
-
-/* .menubuttons{
-  display: none;
-} */
-
-@media (min-width: 600px) {
-  /* .menubuttons{
-    display: block;
-  }
-
-  .menutoggle{
-    display: none;
-  } */
-
-  /* .menulist{
-    display: none;
-  } */
-}
